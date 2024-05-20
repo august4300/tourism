@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "geo": "http://schema.org/geo",
+    "latitude": "http://schema.org/latitude",
+    "longitude": "http://schema.org/longitude",
+    "url": "http://schema.org/url",
+    "name": "http://schema.org/name",
+    "image": {
+      "@id": "http://schema.org/image",
+      "@type": "@id"
+    },
+    "address": "http://schema.org/address",
+    "postalCode": "http://schema.org/postalCode",
+    "streetAddress": "http://schema.org/streetAddress",
+    "addressCountry": "http://schema.org/addressCountry",
+    "addressLocality": "http://schema.org/addressLocality",
+    "telephone": "http://schema.org/telephone",
+    "checkInTime": {
+      "@type": "xsd:time",
+      "@id": "http://schema.org/checkInTime"
+    },
+    "checkOutTime": {
+      "@type": "xsd:time",
+      "@id": "http://schema.org/checkOutTime"
+    },
+    "description": "http://schema.org/description",
+    "alternateName": "http://schema.org/alternateName",
+    "containsPlace": "http://schema.org/containsPlace",
+    "additionalType": {
+      "@id": "http://schema.org/additionalType",
+      "@type": "@id"
+    },
+    "starRating": "http://schema.org/starRating",
+    "author": "http://schema.org/author",
+    "ratingValue": "http://schema.org/ratingValue",
+    "ImageObject": "http://schema.org/ImageObject",
+    "PostalAddress": "http://schema.org/PostalAddress",
+    "GeoCoordinates": "http://schema.org/GeoCoordinates",
+    "LodgingBusiness": "http://schema.org/LodgingBusiness",
+    "Hotel": "http://schema.org/Hotel",
+    "Rating": "http://schema.org/Rating",
+    "Organization": "http://schema.org/Organization"
+  }
+}
