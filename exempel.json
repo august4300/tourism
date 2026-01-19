@@ -52,7 +52,6 @@
             "@id": "https://www.example.com/id/2",
             "@type": "schema:FoodEstablishment",
             "schema:name": "Restaurang Exempel",
-            "schema:telephone": "000000000",
             "schema:additionalType": {
                 "@id": "http://schema.org/Restaurant"
             },
