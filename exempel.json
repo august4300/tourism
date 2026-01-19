@@ -51,14 +51,14 @@
         {
             "@id": "https://www.example.com/id/2",
             "@type": "schema:FoodEstablishment",
-            "schema:name": "Restuarang Exempel",
-            "schema:telephone": "000-00 00 00",
+            "schema:name": "Restaurang Exempel",
+            "schema:telephone": "000000000",
             "schema:additionalType": {
                 "@id": "http://schema.org/Restaurant"
             },
             "schema:address": {
                 "@type": "schema:PostalAddress",
-                "schema:streetAddress": "Restaurarnvägen 2",
+                "schema:streetAddress": "Restaurangvägen 2",
                 "schema:addressLocality": "Exempelstad",
                 "schema:addressRegion": "Östergötlands län",
                 "schema:postalCode": "582 32",
