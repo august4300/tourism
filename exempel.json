@@ -1,0 +1,96 @@
+{
+    "@context": {
+        "schema": "http://schema.org/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "visit": "http://data.visitsweden.com/terms/"
+    },
+    "@graph": [ 
+        {
+            "@id": "https://www.example.com/id/1",
+            "@type": "schema:LodgingBusiness",
+            "schema:additionalType": 
+            {
+                "@id": "http://schema.org/Hotel"
+            },
+            "schema:name":
+            {
+                "@language": "sv",
+                "@value": "Hotell Exempel"
+            },
+            "schema:url": [
+            {
+                "@id": "https://www.example.com/1"
+            }
+            ],
+            "dcterms:spatial": {
+                "@id": "http://data.visitsweden.com/region/vastragotaland"
+            },
+            "schema:description": [
+            {
+                "@language": "en",
+                "@value": "Hotelltext engelska"
+            },
+            {
+                "@language": "sv",
+                "@value": "Hotelltext svenska"
+            }
+            ],
+            "schema:address": {
+            "@type": "schema:PostalAddress",
+            "schema:addressCountry": "sweden",
+            "schema:addressLocality": "Göteborg",
+            "schema:streetAddress": "Hotellvägen 5"
+            },
+            "schema:geo": {
+            "@type": "schema:GeoCoordinates",
+            "schema:latitude": "57.7790223",
+            "schema:longitude": "12.3475506"
+            }
+        },
+        {
+            "@id": "https://www.example.com/id/2",
+            "@type": "schema:FoodEstablishment",
+            "schema:name": "Restuarang Exempel",
+            "schema:telephone": "000-00 00 00",
+            "schema:additionalType": {
+                "@id": "http://schema.org/Restaurant"
+            },
+            "schema:address": {
+                "@type": "schema:PostalAddress",
+                "schema:streetAddress": "Restaurarnvägen 2",
+                "schema:addressLocality": "Exempelstad",
+                "schema:addressRegion": "Östergötlands län",
+                "schema:postalCode": "582 32",
+                "schema:addressCountry": "sweden"
+            },
+            "schema:geo": {
+                "@type": "schema:GeoCoordinates",
+                "schema:latitude": "58.376046",
+                "schema:longitude": "15.955271"
+            },
+            "dcterms:spatial": {
+                "@id": "http://data.visitsweden.com/region/ostergotland"
+            },
+            "schema:description": [
+                {
+                    "@language": "sv",
+                    "@value": "Beskrivning 2"
+                }
+            ],
+            "schema:image": {
+                "@id": "https://example.com/image/2.jpeg",
+                "@type": "schema:ImageObject",
+                "schema:license": {
+                    "@id": "http://creativecommons.org/licenses/by/4.0/"
+                },
+                "schema:creditText": "Upphovsperson 2",
+                "schema:name": "Exempelbild 2"
+            },
+            "schema:url": {
+                "@id": "https://www.example.com/2"
+            },
+            "schema:alternateName": "Exempelnamn 2"
+        }
+    ]
+}
